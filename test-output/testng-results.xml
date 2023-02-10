@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-10T09:48:13 IST" name="Default suite" finished-at="2023-02-10T09:48:26 IST" duration-ms="13076">
+    <groups>
+    </groups>
+    <test started-at="2023-02-10T09:48:13 IST" name="Default test" finished-at="2023-02-10T09:48:26 IST" duration-ms="13076">
+      <class name="testng.DependsOnMethods">
+        <test-method signature="navigateToActitime()[pri:0, instance:testng.DependsOnMethods@2e222612]" started-at="2023-02-10T09:48:13 IST" name="navigateToActitime" finished-at="2023-02-10T09:48:23 IST" duration-ms="9598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToActitime -->
+        <test-method signature="loginToActitime()[pri:0, instance:testng.DependsOnMethods@2e222612]" started-at="2023-02-10T09:48:23 IST" name="loginToActitime" finished-at="2023-02-10T09:48:26 IST" depends-on-methods="testng.DependsOnMethods.navigateToActitime" duration-ms="3423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToActitime -->
+      </class> <!-- testng.DependsOnMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
