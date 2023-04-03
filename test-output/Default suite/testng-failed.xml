@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.DependsOnMethods">
+      <class name="assertions.SoftAssertPractice">
         <methods>
-          <include name="navigateToActitime"/>
-          <include name="loginToActitime"/>
+          <include name="demo1"/>
         </methods>
-      </class> <!-- testng.DependsOnMethods -->
+      </class> <!-- assertions.SoftAssertPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

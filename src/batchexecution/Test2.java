@@ -1,5 +1,6 @@
 package batchexecution;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Test2 {
@@ -17,5 +18,6 @@ public class Test2 {
 	@Test
 	public void demo3() {
 		System.out.println("Test2 - demo3");
+		//Assert.fail();
 	}
 }

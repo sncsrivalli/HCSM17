@@ -20,8 +20,8 @@ public class AlertPractice {
 		Alert al = driver.switchTo().alert();
 		System.out.println(al.getText());
 		
-		//al.accept();
-		al.dismiss();
+		al.accept();
+		//al.dismiss();
 
 	}
 
